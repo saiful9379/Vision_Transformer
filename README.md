@@ -5,7 +5,14 @@ Vision Transformer Model for Image Classification.
 dataset
     ├── train[class_folder and it's image]
     └── test [class_folder and it's image]   
-````
+```
+
+# Requirements
+
+```
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+pip install transformers==4.22.1
+```
 
 # 1. Train Vision Transformer model 
 ## __Preprocess the Data__
