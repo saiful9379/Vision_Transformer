@@ -89,3 +89,10 @@ Evaluation Training model.
 Inference Grid.
 
 ![image](src/logs/grid_prediction.png)
+
+
+# References
+1. https://arxiv.org/pdf/2010.11929.pdf
+2. https://github.com/lucidrains/vit-pytorch
+3. https://medium.com/swlh/containerize-your-personal-projects-with-docker-fe62ca391db8
+4. https://towardsdatascience.com/implementing-visualttransformer-in-pytorch-184f9f16f632
