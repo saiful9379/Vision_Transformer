@@ -1,11 +1,14 @@
-# Vision Transformer 
-Vision Transformer Model for Image Classification.
+# Vision Transformer
 
-```
-dataset
-    ├── train[class_folder and it's image]
-    └── test [class_folder and it's image]   
-```
+Vision Transformer (ViT) is a type of neural network architecture that has been introduced to address the problem of image classification. Unlike traditional convolutional neural networks (CNNs), which rely on convolutions to extract local features from an image, ViT employs a self-attention mechanism to extract global features for classification.
+
+Containerize  the training and inference pipeline using ![Docker](Dockerfile).
+
+
+![Paper link](https://arxiv.org/pdf/2010.11929.pdf)
+
+
+
 
 # Requirements
 
@@ -29,6 +32,12 @@ Which containt 4 classes:
 
 In this class containts some outlier like berry class folder containt other object. defined those object data we can remove outlier.
 
+
+```
+dataset
+    ├── train[class_folder and it's image]
+    └── test [class_folder and it's image]   
+```
 
 ## __Apply augmentation__
 
