@@ -46,7 +46,23 @@ Run ```data_augmentation.py``` script
 python data_augmentation.py
 
 ```
-
+## Augmentation Method
+```
+1. randomHorizontalFlip
+2. Padding
+3. RandomRotation
+4. RandomAffine
+5. brightness
+6. contrast
+7. saturation
+8. hue
+9. shift_operation
+10. random_noise
+11. blurred_gaussian
+12. flipLR
+13. flipUD
+```
+Visualization:
 ![image](src/logs/Augmentation_sample.png)
 
 ## __Build Classifier which will be able to classify the input photo to one of the 4 classes__
