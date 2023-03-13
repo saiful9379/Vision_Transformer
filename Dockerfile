@@ -1,9 +1,6 @@
 # Load base image from Nvidia
 FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
 # --------- Stage 1 image building  --------
-# pull ubunut base
-# FROM nvidia/cuda:11.2.0-base-ubuntu20.04 as devel
-# Copy wheel files and requirments.txt
 COPY ./libs/wheel_files ./requirements.txt /
 # For change nvidia-key
 # RUN rm /etc/apt/sources.list.d/cuda.list && \
